@@ -4,7 +4,7 @@ public class calc{
   public float b {get;set;}
   public int num {get;set;}
   public float base2{get;set;}
-    public float altura{get;set;}
+  public float altura{get;set;}
 
 
   
@@ -23,7 +23,7 @@ public float Sub(float a=0 , float b=0){
 return a-b;
 }
 
-  public int Tabuada(int num=0){
+public int Tabuada(int num=0){
    int frmula=0;
    for (int contador = 1; contador <= 10; ++contador)
             {
