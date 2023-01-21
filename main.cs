@@ -9,7 +9,7 @@ class Program {
         while (true)
         {
           
-            Console.WriteLine("Escolha um numero de 1 a 5 das operações:\n====================\n1)Soma\n2)Subtração\n3)Multiplicação\n4)Divisao\n5)Tabuada");
+            Console.WriteLine("Escolha um numero de 1 a 6 das operações:\n====================\n1)Soma\n2)Subtração\n3)Multiplicação\n4)Divisao\n5)Tabuada\n6)Area de um triangulo");
 
           Console.WriteLine("====================");
           
@@ -89,6 +89,22 @@ Console.WriteLine("====================");
                Console.WriteLine("====================");
               Console.WriteLine("[Tabuada do "+calc.Tabuada(num)+" ]");
             }
+          
+          else if (opcao == 6)
+            {
+              Console.WriteLine("====================");   
+              Console.WriteLine("Informe a base:");
+              calc.base2=float.Parse(Console.ReadLine());
+              Console.WriteLine("====================");
+
+            Console.WriteLine("Informe a altura:");
+            calc.altura = float.Parse(Console.ReadLine());
+            float a = calc.base2;
+            float b = calc.altura;  
+        Console.WriteLine("====================");
+              Console.WriteLine("Área do triângulo é: "+(calc.Base(a,b)));
+            }
+          
           else{
             Console.WriteLine("Opcao invalida!");
              Console.WriteLine("====================");

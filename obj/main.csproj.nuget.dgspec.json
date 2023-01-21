@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Tabuada/main.csproj": {}
+    "/home/runner/Menu-de-operacoes/main.csproj": {}
   },
   "projects": {
-    "/home/runner/Tabuada/main.csproj": {
+    "/home/runner/Menu-de-operacoes/main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Tabuada/main.csproj",
+        "projectUniqueName": "/home/runner/Menu-de-operacoes/main.csproj",
         "projectName": "main",
-        "projectPath": "/home/runner/Tabuada/main.csproj",
+        "projectPath": "/home/runner/Menu-de-operacoes/main.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/Tabuada/obj/",
+        "outputPath": "/home/runner/Menu-de-operacoes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/runner/.nuget/NuGet/NuGet.Config"

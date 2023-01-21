@@ -3,7 +3,9 @@ public class calc{
   public float a {get;set;}
   public float b {get;set;}
   public int num {get;set;}
-  public int tabuada=0;
+  public float base2{get;set;}
+    public float altura{get;set;}
+
 
   
 public float Divi(float a=0 , float b=0){
@@ -30,4 +32,11 @@ return a-b;
             }
     return num;
   }
+
+  public float Base(float altura,float base2){
+
+    return (base2*altura)/2;
+  }
+
+  
   }
