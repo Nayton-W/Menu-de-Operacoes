@@ -8,6 +8,15 @@ class Program {
         int opcao = 0;
         while (true)
         {
+      string privilegio ="";
+        Console.WriteLine("Informe seu nome caro usuario");
+          string nome= Console.ReadLine();
+          if(nome =="Nayton")
+             privilegio ="Administrador";
+          else
+              privilegio="Padrao";
+          
+        Console.WriteLine("Bem vindo!! "+nome+", Usuario: "+privilegio+" , ao sistema nero");
           
             Console.WriteLine("Escolha um numero de 1 a 6 das operações:\n====================\n1)Soma\n2)Subtração\n3)Multiplicação\n4)Divisao\n5)Tabuada\n6)Area de um triangulo");
 
